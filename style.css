@@ -1,0 +1,134 @@
+*{
+margin:0px auto; /*supaya layer otomatis mengisi dan ke tengah*/
+}
+body{font-family:calibri, verdana, sans-serif;
+background-color: #D3D3D3;}
+
+a{
+	text-decoration: none;
+  color: #00BFFF
+}
+ 
+#wrapper{
+width:100%;
+}
+
+#header {
+width:100%; /*mengatur header supaya full width*/
+z-index:100; 
+position:fixed;
+height:120px; 
+background: #696969;
+}
+#header p{
+margin-top: 0px;
+font-size: 20px;
+color:#00BFFF; 
+font-weight:bold; 
+text-decoration:none; 
+font-size:30px; 
+line-height:60px; 
+padding:2px 20px; /*mengatur jarak antara di kiri dan kanan saja*/
+}
+
+#menu{
+	margin-top: -35px;
+	position: relative;
+} 
+
+#content{
+position:relative;
+background:#D3D3D3;
+margin:0px 50px;
+}
+
+#home img{
+width: 100%;
+height: auto;
+}
+
+#logo img{
+	width: 100%;
+	height: auto;
+	margin-top: -290px;
+}
+
+#about{
+background:#696969;
+color: white;
+margin-top: 50px;
+font-size: 30px;
+}
+ 
+#about p{
+ 	text-align: justify;
+ 	margin: 5px 5px;
+}
+
+#paket{
+background:#696969;
+margin-top: 100px;
+margin-bottom: 20px;
+color:white;
+font-size: 20px;
+}
+
+#container{
+    width: 100%;
+    position:relative;
+    background: #00BFFF;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+
+#footer
+{
+width: 100%;
+text-align: right; 
+height: 75px;
+font-size: 20px; 
+float:right;
+background:#696969;
+}
+
+#footer a{
+
+  color: #00BFFF;
+  margin-right: 20px;
+}
+
+/* Menu Bar */
+nav {
+  text-align:center;
+  margin-top: -35px;
+  margin-right: 20PX;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+}
+
+ul > li {
+  display: inline;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color:  #00BFFF;
+  background: #696969;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+ul > li > a:hover {
+  background: #00BFFF;
+  color: #696969;
+}
+
